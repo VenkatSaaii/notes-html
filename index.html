@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>NoteBook</title>
+</head>
+<body>
+  <h1>NoteBook</h1>
+  <div class="center">
+    <label for="search">Search Notes:</label>
+    <input type="text" id="search" placeholder="Search notes...">
+    <button onclick="searchNotes()">Search</button>
+  </div>
+  <div class="center">
+    <p>Total books: <span id="totalBooks">0</span></p>
+    <p>Showing: <span id="showing">0</span></p>
+  </div>
+  <div>
+    <label for="newTitle">New Title:</label>
+    <input type="text" id="newTitle" placeholder="Enter new title...">
+  </div>
+  <div>
+    <label for="noteDescription">Note Description:</label>
+    <textarea id="noteDescription" rows="10" placeholder="Enter note description..."></textarea>
+  </div>
+  <button onclick="addBook()">Add Book</button>
+  <ul id="bookList"></ul>
+  <script src="index.js"></script>
+</body>
+</html>

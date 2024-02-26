@@ -1,0 +1,31 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the content within the container */
+  }
+  
+  .search-container {
+    margin-bottom: 10px;
+    text-align: center; /* Center align the content within the search container */
+  }
+  
+  .main-area input, .main-area textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left; /* Reset the text alignment for input and textarea */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Reset the text alignment for the list */
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
